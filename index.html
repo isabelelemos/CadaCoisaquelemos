@@ -1,33 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/stiyle.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    
-    <title>Cada Coisa que Lemos- Home</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>CadaCoisaQueLemos</title>
+    <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#home">Página Inicial</a>
-            <a href="#livros">Livros</a>
-            <a href="#sobre">Sobre Nós</a>
-            <a class= "contatos" href="#contato">Contato
-            <div class="submenu">
-                <a href="#instagram">Instagram</a>
-                <a href="#whatsapp">WhatsApp</a>
-                <a href="#formulario">Formulário</a>
+        <nav class="navigation">
+            <a href="#" class="logo">CadaCoisaQue<span><span>Lemos</span></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="#sobre" >Sobre nós</a></li>
+                <li class="nav-item"><a href="https://instagram.com/cadacoisaque_lemos?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Livros</a></li>
+                <li class="nav-item"><a href="formulario.html" target="_blank">Contato</a></li>
+                
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-        </a>
         </nav>
     </header>
-    <div class="banner">
-        <img src="imagens/banner-pag-inicial.png" alt="Descrição da imagem">
-    </div>
-</body>
-<footer>
+    <main>
+        <section class="home">
+            <div class="home-text">
+                <h4 class="text-h4"></h4>
+                <h1 class="text-h1">Compartilhando o amor pela leitura</h1>
+                <p>Encontre sugestões dos melhores livros aqui</p>
+                <a  target="_blank" href="https://instagram.com/cadacoisaque_lemos?igshid=OGQ5ZDc2ODk2ZA==" class="home-btn">Junte-se a nós</a>
+            </div>
+            <div class="home-img" style="margin-top: 50px; ">
+                <img src="imagens/pag-inicial.jpg" alt="imagem de um leitor digital" class = "img-inicial" >
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="sobre-conteudo">
+              <div data-aos="zoom-in" data-aos-delay="100">
+                <img class="foto-insta" src="imagens/pag-insta.jpeg" alt="Imagens do site"/>
+              </div>
+        
+              <div class="sobre-descricao" data-aos="zoom-out-left" data-aos-delay="250"
+>
+                <h2>Conheça Mais sobre nós...</h2>
+                <p>A história do Cada Coisa que Lemos se iniciou durante a pandemia, com o intuito de ser um escape para o ócio do periodo.</p>
+                <p>A ideia de registrar as leituras do ano e se conectar com vários leitores e escritores do mundo todo foi essesencial no periodo da pandemia. Hoje já são mais e 1000 seguidores no instagram.</p>
+              </div>
+        
+            </div>
+          </section>
+    </main>
     
+  <footer style="margin-top: 50px;">
+    <div class="footer-col">
+        <h4>products</h4>
+        <ul>
+            <li><a href="#">teams</a></li>
+            <li><a href="#">advertising</a></li>
+            <li><a href="#">talent</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="links">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
 </footer>
+<script src="script.js"></script>
+</body>
 </html>
